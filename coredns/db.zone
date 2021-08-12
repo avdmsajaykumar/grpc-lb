@@ -1,0 +1,12 @@
+$ORIGIN  avdms.io.
+@	3600 IN	SOA sns.dns.icann.org. noc.dns.icann.org. (
+				2017042745 ; serial
+				5       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+www 		   	10    IN A       10.50.50.10 
+  	  			10    IN A       10.50.50.20
+open			10    IN A       10.55.204.10
+hello			10	  IN A		 192.168.29.1

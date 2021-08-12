@@ -1,0 +1,14 @@
+avdms.io {
+      bind 10.55.204.1
+      file db.zone
+      errors
+      log
+  }
+
+. {
+    bind 10.55.204.1
+    forward . 192.168.29.1
+    log
+    errors
+
+}
